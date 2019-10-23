@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @react-native-community/async-storage
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mr444\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\Users\mr444\AppData\Local\Android\Sdk\platform-tools;C:\Users\mr444\AppData\Local\Android\Sdk\tools;C:\Users\mr444\AppData\Local\Microsoft\WindowsApps;C:\Users\mr444\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\WebStorm 2018.3\bin;C:\Program Files\heroku\bin;C:\Users\mr444\AppData\Local\Yarn\bin;C:\Users\mr444\AppData\Roaming\npm;C:\Users\mr444\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\mr444\AppData\Local\Android\Sdk\platform-tools;C:\Users\mr444\AppData\Local\Android\Sdk\tools;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\gradle\gradle-5.6.2\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Work\Android\AwesomeProject\node_modules\@react-native-community\cli\node_modules\node-fetch\lib'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/async-storage": "^1.6.2",
+      "expo": "^35.0.0",
+      "react": "16.8.3",
+      "react-dom": "16.8.3",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+      "react-native-web": "^0.11.7"
+    },
+    "devDependencies": {
+      "@types/react": "^16.8.23",
+      "@types/react-native": "^0.57.65",
+      "babel-preset-expo": "^7.0.0",
+      "typescript": "^3.4.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
