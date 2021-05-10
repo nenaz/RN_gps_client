@@ -12,7 +12,7 @@
     "@types/socket.io-client": "^1.4.32",
     "babel-plugin-styled-components": "^1.10.6",
     "expo": "^35.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-hook-form": "^3.24.1",
